@@ -1,7 +1,8 @@
-/* 
-  Action Types Go Here!
-  Be sure to export each action type so you can pull it into your reducer
-*/
+import axios from 'axios';
+
+export const LOADING = "LOADING";
+export const ERROR_MESSAGE = "ERROR_MESSAGE";
+export const GET_SMURFS = "GET_SMURFS";
 
 /*
   For this project you'll need at least 2 action creators for the main portion,
@@ -13,3 +14,17 @@
    U - updateSmurf
    D - deleteSmurf
 */
+
+export const addSmurf = (newSmurf) => {
+}
+
+export const getSmurfs = () => {
+}
+
+export const updateSmurf = (updatedSmurf) => {
+
+}
+
+export const deleteSmurf = (id) => {
+  
+}
